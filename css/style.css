@@ -1,0 +1,28 @@
+h1, h2 {
+  color: #2b2d42;
+  text-align: center;
+  font-family: sans-serif; }
+
+#main-nav {
+  font-family: sans-serif; }
+
+body {
+  background-color: #edf2f4; }
+
+.call-to-action {
+  background-color: #ef233c;
+  color: white;
+  padding: 5px;
+  border: none;
+  margin: auto;
+  display: block; }
+
+li {
+  display: inline-block;
+  padding-right: 20px; }
+
+#main-nav {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  text-align: center; }

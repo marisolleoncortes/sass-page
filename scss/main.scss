@@ -1,0 +1,32 @@
+@import "theme";
+@import "font";
+
+body {
+    background-color: $secondarycolor;
+}
+
+.call-to-action {
+    background-color: $ctacolor;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+
+@mixin horizontal-list {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#main-nav {
+    @include horizontal-list;
+}
